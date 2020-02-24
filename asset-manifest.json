@@ -1,23 +1,38 @@
 {
   "files": {
-    "main.css": "/react-farm-fresh-test/static/css/main.d1b05096.chunk.css",
-    "main.js": "/react-farm-fresh-test/static/js/main.5b7bf30d.chunk.js",
-    "main.js.map": "/react-farm-fresh-test/static/js/main.5b7bf30d.chunk.js.map",
+    "main.css": "/react-farm-fresh-test/static/css/main.9222f5b8.chunk.css",
+    "main.js": "/react-farm-fresh-test/static/js/main.e0acce68.chunk.js",
+    "main.js.map": "/react-farm-fresh-test/static/js/main.e0acce68.chunk.js.map",
     "runtime-main.js": "/react-farm-fresh-test/static/js/runtime-main.9e30bd81.js",
     "runtime-main.js.map": "/react-farm-fresh-test/static/js/runtime-main.9e30bd81.js.map",
-    "static/js/2.150b3053.chunk.js": "/react-farm-fresh-test/static/js/2.150b3053.chunk.js",
-    "static/js/2.150b3053.chunk.js.map": "/react-farm-fresh-test/static/js/2.150b3053.chunk.js.map",
+    "static/js/2.1aba2485.chunk.js": "/react-farm-fresh-test/static/js/2.1aba2485.chunk.js",
+    "static/js/2.1aba2485.chunk.js.map": "/react-farm-fresh-test/static/js/2.1aba2485.chunk.js.map",
     "index.html": "/react-farm-fresh-test/index.html",
-    "precache-manifest.3f5dcb0dfd4d9a9b0e18a4d1f76cf42a.js": "/react-farm-fresh-test/precache-manifest.3f5dcb0dfd4d9a9b0e18a4d1f76cf42a.js",
+    "precache-manifest.2155f99d3fd398a7b114a7a2e277e9a5.js": "/react-farm-fresh-test/precache-manifest.2155f99d3fd398a7b114a7a2e277e9a5.js",
     "service-worker.js": "/react-farm-fresh-test/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/react-farm-fresh-test/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.150b3053.chunk.js.LICENSE.txt": "/react-farm-fresh-test/static/js/2.150b3053.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/react-farm-fresh-test/static/media/logo.5d5d9eef.svg"
+    "static/css/main.9222f5b8.chunk.css.map": "/react-farm-fresh-test/static/css/main.9222f5b8.chunk.css.map",
+    "static/js/2.1aba2485.chunk.js.LICENSE.txt": "/react-farm-fresh-test/static/js/2.1aba2485.chunk.js.LICENSE.txt",
+    "static/media/Untitled-1.png": "/react-farm-fresh-test/static/media/Untitled-1.13adc0f4.png",
+    "static/media/Untitled-2.png": "/react-farm-fresh-test/static/media/Untitled-2.02f12951.png",
+    "static/media/Untitled-3.png": "/react-farm-fresh-test/static/media/Untitled-3.eed0eaf1.png",
+    "static/media/Untitled-5.png": "/react-farm-fresh-test/static/media/Untitled-5.c707fbca.png",
+    "static/media/Untitled-6.jpg": "/react-farm-fresh-test/static/media/Untitled-6.ec587318.jpg",
+    "static/media/Untitled-7.jpg": "/react-farm-fresh-test/static/media/Untitled-7.cc74eb4a.jpg",
+    "static/media/banner.jpg": "/react-farm-fresh-test/static/media/banner.42132b25.jpg",
+    "static/media/clock.png": "/react-farm-fresh-test/static/media/clock.a06c4428.png",
+    "static/media/delivery-truck.png": "/react-farm-fresh-test/static/media/delivery-truck.8628618e.png",
+    "static/media/logo.png": "/react-farm-fresh-test/static/media/logo.defbb261.png",
+    "static/media/shopping-cart.png": "/react-farm-fresh-test/static/media/shopping-cart.e49e3d2e.png",
+    "static/media/side-banner.png": "/react-farm-fresh-test/static/media/side-banner.f41b74c1.png",
+    "static/media/support.png": "/react-farm-fresh-test/static/media/support.eb853aee.png",
+    "static/media/u4.png": "/react-farm-fresh-test/static/media/u4.1c24446a.png",
+    "static/media/u8.jpg": "/react-farm-fresh-test/static/media/u8.16d21c33.jpg",
+    "static/media/u9.jpg": "/react-farm-fresh-test/static/media/u9.7d31bb9b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9e30bd81.js",
-    "static/js/2.150b3053.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.5b7bf30d.chunk.js"
+    "static/js/2.1aba2485.chunk.js",
+    "static/css/main.9222f5b8.chunk.css",
+    "static/js/main.e0acce68.chunk.js"
   ]
 }
