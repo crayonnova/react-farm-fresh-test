@@ -50,7 +50,6 @@
         object-fit: cover;
         transition: 0.5s all ease-out;
         &:hover{
-            padding-bottom: 5px;
             -webkit-box-shadow: 10px 43px 69px -45px rgba(84,84,84,1);
             -moz-box-shadow: 10px 43px 69px -45px rgba(84,84,84,1);
             box-shadow: 10px 43px 69px -45px rgba(84,84,84,1);
@@ -59,6 +58,8 @@
     }
     
 }
+
+
 
 // Bootstrap overrrite
 div.Store.container-fluid  div.Store__sidebar.py-4.px-0.col-md-3 > div.show.dropright > div{

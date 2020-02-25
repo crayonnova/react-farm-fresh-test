@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container,Row,Col,Navbar,Nav,Form,FormControl,Button,Dropdown,DropdownButton} from 'react-bootstrap'
+import { Container,Row,Col,Dropdown,DropdownButton} from 'react-bootstrap'
 import Items from './../../items'
 import './Store.style.scss'
 
@@ -22,7 +22,7 @@ class Store extends React.Component {
     const Items = this.state.items;
     
     return (
-        <Container fluid className='Store'>
+        <Container fluid className='Store p-0'>
            
             <Row className='m-0'>
                 <Col  className="Store__sidebar py-4 px-0"  md={3}>
@@ -73,14 +73,14 @@ class Store extends React.Component {
                 <ItemModal show={this.state.modalShow} handleClose={ () => this.setState({modalShow : false})} item={this.state.item}></ItemModal>
                 <Col md={9} className='Store__content  py-4 px-0'>
                 
-                    <Col md={10} className="offset-1 p-0">
-                        <Row className="">
+                    <Col md={10} className="offset-md-1 offset-sm-0 p-0">
+                        <Row className="m-0">
                         
                         {
                             Items.map( (item) => 
                            
-                            <Col key={item.id} md={4} className="Card justify-content-center mb-4">
-                                <img onClick={ () => this.setState({modalShow : true,item })} className="Card__img" alt={item.name} width="100%" src={item.imageUrl}/>
+                            <Col key={item.id} md={4} sm={6} className="Card justify-content-center mb-4 px-sm-5 p-md-3">
+                                <img onClick={ () => this.setState({modalShow : true,item })} className="Card__img w-100" alt={item.name} src={item.imageUrl}/>
                                 <p className="mb-0 font-weight-bolder pl-4">{item.name}</p>
                                 <span className="font-weight-bold text-muted pl-4">{item.category}</span>
                             </Col>

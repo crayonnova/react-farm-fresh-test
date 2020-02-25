@@ -23,7 +23,7 @@ const items = [
         id : 2,
         imageUrl : product2,
         name : "Ripe Blue Grape",
-        Category : "Packet",
+        category : "Packet",
         info : "Packet of 1 bundle",
         about : "lorem  ipsum",
         origin : "France"
@@ -32,7 +32,7 @@ const items = [
         id : 3,
         imageUrl : product3,
         name : "Ripe Blue Grape",
-        Category : "Packet",
+        category : "Packet",
         info : "Packet of 1 bundle",
         about : "lorem  ipsum",
         origin : "France"
@@ -41,7 +41,7 @@ const items = [
         id : 4,
         imageUrl : product4,
         name : "Ripe Blue Grape",
-        Category : "Packet",
+        category : "Packet",
         info : "Packet of 1 bundle",
         about : "lorem  ipsum",
         origin : "France"
@@ -50,7 +50,7 @@ const items = [
         id : 5,
         imageUrl : product5,
         name : "Ripe Blue Grape",
-        Category : "Packet",
+        category : "Packet",
         info : "Packet of 1 bundle",
         about : "lorem  ipsum",
         origin : "France"
@@ -59,7 +59,7 @@ const items = [
         id : 6,
         imageUrl : product6,
         name : "Ripe Blue Grape",
-        Category : "Packet",
+        category : "Packet",
         info : "Packet of 1 bundle",
         about : "lorem  ipsum",
         origin : "France"
@@ -68,7 +68,7 @@ const items = [
         id : 7,
         imageUrl : product7,
         name : "Ripe Blue Grape",
-        Category : "Packet",
+        category : "Packet",
         info : "Packet of 1 bundle",
         about : "lorem  ipsum",
         origin : "France"
@@ -77,7 +77,7 @@ const items = [
         id : 8,
         imageUrl : product8,
         name : "Ripe Blue Grape",
-        Category : "Packet",
+        category : "Packet",
         info : "Packet of 1 bundle",
         about : "lorem  ipsum",
         origin : "France"
@@ -86,7 +86,7 @@ const items = [
         id : 9,
         imageUrl : product9,
         name : "Ripe Blue Grape",
-        Category : "Packet",
+        category : "Packet",
         info : "Packet of 1 bundle",
         about : "lorem  ipsum",
         origin : "France"

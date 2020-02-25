@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal,Button,Container,Row,Col,Carousel,InputGroup,FormControl,Form } from 'react-bootstrap'
+import { Modal,Button,Container,Row,Col,Carousel,InputGroup,Form } from 'react-bootstrap'
 import './Modal.style.scss'
 
 class ItemModal extends React.Component  {
@@ -17,10 +17,9 @@ class ItemModal extends React.Component  {
     }
     render(){
         const {show,handleClose,item} = this.props;
-        console.log(this.state.isExpand)
     return (
-        <Modal show={show} onHide={handleClose} size='xl'>
-            <Modal.Header closeButton>
+        <Modal className='Modal' show={show} onHide={handleClose} size='xl'>
+            <Modal.Header closeButton className='border-0'>
             </Modal.Header>
             <Modal.Body className='overflow-auto'>
                 <Container>
@@ -82,10 +81,10 @@ class ItemModal extends React.Component  {
 
                             </Container>
                             <Row className='positon-absolute l-0 b-0 testing'>
-                                    <Col className="pb-3" md={6}>
+                                    <Col className="pb-3" md={5}>
                                         
                                         <InputGroup className="mb-3">
-                                            <Button className='mr-3'>Qty</Button>
+                                            <Button className='mr-3 Modal__button'>Qty</Button>
                                             <Form.Control as="select">
                                                 <option>1</option>
                                                 <option>2</option>
@@ -96,9 +95,9 @@ class ItemModal extends React.Component  {
                                         </InputGroup>
                                         
                                     </Col>
-                                    <Col className="pb-3" md={6}> 
+                                    <Col className="pb-3" md={7}> 
                                         <p>
-                                           <Button>ADD TO CART</Button>
+                                           <Button className='Modal__button px-5'>ADD TO CART</Button>
                                         </p>
                                      </Col>
                             </Row>    

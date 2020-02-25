@@ -30,8 +30,8 @@ const Header = () => {
 
     <Container fluid>
         <Row>
-            <Col md={12} className="p-0">
-                <img src={banner} width="100%" alt=""/>
+            <Col md={12} className="p-0 Banner">
+                
             </Col>
         </Row>
     </Container>
