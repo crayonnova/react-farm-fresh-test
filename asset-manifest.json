@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/react-farm-fresh-test/static/css/main.9222f5b8.chunk.css",
-    "main.js": "/react-farm-fresh-test/static/js/main.e0acce68.chunk.js",
-    "main.js.map": "/react-farm-fresh-test/static/js/main.e0acce68.chunk.js.map",
+    "main.css": "/react-farm-fresh-test/static/css/main.b210c6b0.chunk.css",
+    "main.js": "/react-farm-fresh-test/static/js/main.a01bb63e.chunk.js",
+    "main.js.map": "/react-farm-fresh-test/static/js/main.a01bb63e.chunk.js.map",
     "runtime-main.js": "/react-farm-fresh-test/static/js/runtime-main.9e30bd81.js",
     "runtime-main.js.map": "/react-farm-fresh-test/static/js/runtime-main.9e30bd81.js.map",
-    "static/js/2.1aba2485.chunk.js": "/react-farm-fresh-test/static/js/2.1aba2485.chunk.js",
-    "static/js/2.1aba2485.chunk.js.map": "/react-farm-fresh-test/static/js/2.1aba2485.chunk.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/react-farm-fresh-test/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.a1415a7d.chunk.js": "/react-farm-fresh-test/static/js/2.a1415a7d.chunk.js",
+    "static/js/2.a1415a7d.chunk.js.map": "/react-farm-fresh-test/static/js/2.a1415a7d.chunk.js.map",
     "index.html": "/react-farm-fresh-test/index.html",
-    "precache-manifest.2155f99d3fd398a7b114a7a2e277e9a5.js": "/react-farm-fresh-test/precache-manifest.2155f99d3fd398a7b114a7a2e277e9a5.js",
+    "precache-manifest.a8f26c271e31a9f722b845e37a3960d9.js": "/react-farm-fresh-test/precache-manifest.a8f26c271e31a9f722b845e37a3960d9.js",
     "service-worker.js": "/react-farm-fresh-test/service-worker.js",
-    "static/css/main.9222f5b8.chunk.css.map": "/react-farm-fresh-test/static/css/main.9222f5b8.chunk.css.map",
-    "static/js/2.1aba2485.chunk.js.LICENSE.txt": "/react-farm-fresh-test/static/js/2.1aba2485.chunk.js.LICENSE.txt",
+    "static/css/2.47e06e2e.chunk.css.map": "/react-farm-fresh-test/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.b210c6b0.chunk.css.map": "/react-farm-fresh-test/static/css/main.b210c6b0.chunk.css.map",
+    "static/js/2.a1415a7d.chunk.js.LICENSE.txt": "/react-farm-fresh-test/static/js/2.a1415a7d.chunk.js.LICENSE.txt",
     "static/media/Untitled-1.png": "/react-farm-fresh-test/static/media/Untitled-1.13adc0f4.png",
     "static/media/Untitled-2.png": "/react-farm-fresh-test/static/media/Untitled-2.02f12951.png",
     "static/media/Untitled-3.png": "/react-farm-fresh-test/static/media/Untitled-3.eed0eaf1.png",
@@ -31,8 +33,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9e30bd81.js",
-    "static/js/2.1aba2485.chunk.js",
-    "static/css/main.9222f5b8.chunk.css",
-    "static/js/main.e0acce68.chunk.js"
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.a1415a7d.chunk.js",
+    "static/css/main.b210c6b0.chunk.css",
+    "static/js/main.a01bb63e.chunk.js"
   ]
 }
