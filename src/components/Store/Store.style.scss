@@ -1,0 +1,79 @@
+.Store{
+    background-color: #F4F4F4;
+    &__sidebar{
+        background-color: #ECF0F1;
+       .dropright
+        #dropdown-button-drop-right{
+            padding: 12px 80px;
+            text-align: left;
+            border-radius:0px;
+            outline:none;
+            color:black;
+            width: 100%;
+            background: none;
+            border:none;
+            .dropdown-menu.show{
+                background-color: red;
+            }
+            & .dropdown-menu.show{
+                color: #fff;
+            }
+            &:hover{
+                background-color: #CCCCCC;
+                border:none!important;
+                outline: none!important;
+            }
+            &:focus{
+                background-color: #CCCCCC;
+                color: #fff;
+                outline:none!important;
+            }
+            &:active{
+                outline:none!important;
+            }
+        }  
+       
+    }
+
+}
+
+
+.dropright .dropdown-toggle::after {
+    display: none;
+}
+.Card{
+    &__img{
+        
+        border-radius: 30px;
+        height: 200px;
+        max-width: 100%;
+        object-fit: cover;
+        transition: 0.5s all ease-out;
+        &:hover{
+            padding-bottom: 5px;
+            -webkit-box-shadow: 10px 43px 69px -45px rgba(84,84,84,1);
+            -moz-box-shadow: 10px 43px 69px -45px rgba(84,84,84,1);
+            box-shadow: 10px 43px 69px -45px rgba(84,84,84,1);
+            transform: scale(1.03);
+        }
+    }
+    
+}
+
+// Bootstrap overrrite
+div.Store.container-fluid  div.Store__sidebar.py-4.px-0.col-md-3 > div.show.dropright > div{
+    padding: 0px;
+    color: #fff!important;
+    border-radius:0px;
+    border:none;
+    background-color: #CCCCCC;
+}
+.dropright .dropdown-toggle::after {
+    display: none!important;
+}
+div.Store.container-fluid  div.Store__sidebar.py-4.px-0.col-md-3 > div.show.dropright > div > a.dropdown-item{
+    color: #fff;
+    &:hover{
+        color: #cccccc;
+    }
+}

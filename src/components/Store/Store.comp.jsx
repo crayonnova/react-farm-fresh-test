@@ -1,54 +1,99 @@
 import React from 'react';
-import { Container,Row,Col,Navbar,Nav,Form,FormControl,Button} from 'react-bootstrap'
+import { Container,Row,Col,Navbar,Nav,Form,FormControl,Button,Dropdown,DropdownButton} from 'react-bootstrap'
 import Items from './../../items'
+import './Store.style.scss'
 
+import ItemModal from '../Modal/Modal.comp'
 class Store extends React.Component {
 
     constructor(props) {
         super(props)
     
         this.state = {
+             modalShow : false,
+             item: {},
              items : []
         }
     }
-    componentDidMount() {
+    componentWillMount  () {
         this.setState({items: Items})
     }
     render(){
     const Items = this.state.items;
-    console.log(Items)
+    
     return (
-        <Container fluid>
-            <Row>
-                <Col md={4}>
-                    <ul>
-                        <li>New</li>
-                        <li>New</li>
-                        <li>New</li>
-                        <li>New</li>
-                        <li>New</li>
-                        <li>New</li>
-                    </ul>
+        <Container fluid className='Store'>
+           
+            <Row className='m-0'>
+                <Col  className="Store__sidebar py-4 px-0"  md={3}>
+                <DropdownButton title="On sale!" id="dropdown-button-drop-right" drop='right'  >
+                    <Dropdown.Item href="#/action-1">Place order</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">checkout</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3"> something</Dropdown.Item>
+                </DropdownButton>
+
+                <DropdownButton title="New" id="dropdown-button-drop-right" drop='right'  >
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </DropdownButton>
+                <DropdownButton title="Shop by Store" id="dropdown-button-drop-right" drop='right'  >
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </DropdownButton>
+                <DropdownButton title="Frusit vs Veg" id="dropdown-button-drop-right" drop='right'  >
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </DropdownButton>
+                <DropdownButton title="Meat & Seadfood" id="dropdown-button-drop-right" drop='right'  >
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </DropdownButton>
+                <DropdownButton title="Diary and Chilled" id="dropdown-button-drop-right" drop='right'  >
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </DropdownButton>
+                <DropdownButton title="Bakery" id="dropdown-button-drop-right" drop='right'  >
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </DropdownButton>
+                <DropdownButton title="Beverages" id="dropdown-button-drop-right" drop='right'  >
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </DropdownButton>
+
+
                 </Col>
-                <Col md={8}>
+                <ItemModal show={this.state.modalShow} handleClose={ () => this.setState({modalShow : false})} item={this.state.item}></ItemModal>
+                <Col md={9} className='Store__content  py-4 px-0'>
                 
-                    <Col md={10} offset={2}>
-                        <Row>
+                    <Col md={10} className="offset-1 p-0">
+                        <Row className="">
                         
                         {
                             Items.map( (item) => 
-                            <Col md={4}>
-                                <h1>{item.id}</h1> 
-                                <img alt="df" width="80px" src={item.imageUrl}/>
-                                </Col>
+                           
+                            <Col key={item.id} md={4} className="Card justify-content-center mb-4">
+                                <img onClick={ () => this.setState({modalShow : true,item })} className="Card__img" alt={item.name} width="100%" src={item.imageUrl}/>
+                                <p className="mb-0 font-weight-bolder pl-4">{item.name}</p>
+                                <span className="font-weight-bold text-muted pl-4">{item.category}</span>
+                            </Col>
+                            
                             )
                         }
-                       
                         </Row>
                     </Col>
                 </Col>
             </Row>
+            
         </Container>
+        
     );
     }
 }

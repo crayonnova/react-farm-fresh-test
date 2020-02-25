@@ -8,8 +8,8 @@ import support from '../../assets/support.png'
 export class Promotion extends Component {
     render() {
         return (
-           <Container fluid className="p-0">
-               <Row>
+           <Container fluid>
+               <Row className='m-0'>
                    <Col md={6}>
                        <h1>FRESH FOOD FOR A FRESHER YOU</h1>
                        <h2>Quality Food,Quality Life</h2>
@@ -24,11 +24,11 @@ export class Promotion extends Component {
                        Online anywhere
                    </Col>
                    <Col md={4}>
-                   <img src={clock} width="100px" alt=""/>
+                   <img src={truck} width="100px" alt=""/>
                        First delivery
                    </Col>
-                   <Col md={4}>
-                   <img src={clock} width="100px" alt=""/>
+                   <Col md={4} className="p-0">
+                   <img src={support} width="100px" alt=""/>
                        24/7 Support
                    </Col>
                </Row>

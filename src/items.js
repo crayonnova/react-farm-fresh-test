@@ -14,9 +14,9 @@ const items = [
         id : 1,
         imageUrl : product1,
         name : "Ripe Blue Grape",
-        Category : "Packet",
-        info : "Packet of 1 bundle",
-        about : "lorem  ipsum",
+        category : "Packet",
+        info : "Packet of 1 bundle of Grapes",
+        about : "From the heart of the french Alps after a journey of more than 70 years, springs this Ripe Blue Grapes. Thanks to this amazing journey through the Chambotte mountains, it acquires its unique fresgqualities. With our passion for preserving this natural heritage, we are proud to offer you this moment of purity in your busy lives.",
         origin : "France"
     },
     {
