@@ -2,28 +2,37 @@ import React from 'react';
 import './Header.style.scss'
 import Logo from '../../assets/logo.png'
 import cart from '../../assets/shopping-cart.png'
-import banner from '../../assets/banner.jpg'
-import { Container,Row,Col,Navbar,Nav,Form,FormControl,Button} from 'react-bootstrap'
+import search from '../../assets/icons8-search.svg'
+import { Container,Row,Col,Navbar,Nav,FormControl,InputGroup} from 'react-bootstrap'
 const Header = () => {
     return (
 <>
-    <Navbar bg="light" expand="lg" fixed={"top"}>
+    <Navbar className='Header' bg="light" expand="lg" fixed={"top"}>
     <Navbar.Brand href="#home">
-        <img
+        <img 
             alt=""
             src={Logo}
-            height="60"
-            className="d-inline-block align-top"
+            height="70"
+            className="d-inline-block align-top pl-3"
         />{' '}
         </Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">  
-        <Form inline>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <Button variant="outline-success">Search</Button>
-        </Form>
+        <Nav className="mr-auto md-4 my-md-3">  
+            <InputGroup className="Header__searchbox ">
+                <FormControl
+                placeholder="Search for a product or brand"
+                />
+                <InputGroup.Append>
+                <InputGroup.Text id="basic-addon2" className='py-1 px-2 bg-primary'> <img width='25px' src={search} alt=""/> </InputGroup.Text>
+                </InputGroup.Append>
+            </InputGroup>
         </Nav>
+          
+            {/* <Col md={6} lg={2}> */}
+     
+               
+            {/* </Col> */}
         <img src={cart} width="40px" alt=""/>
     </Navbar.Collapse>
     </Navbar>

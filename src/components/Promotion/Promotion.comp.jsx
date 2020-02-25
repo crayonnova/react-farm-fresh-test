@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container,Row,Col,Card,Navbar,Nav,Form,FormControl,Button} from 'react-bootstrap'
+import { Container,Row,Col,Card} from 'react-bootstrap'
 import SideBanner from '../../assets/side-banner.png'
 import clock from '../../assets/clock.png'
 import truck from '../../assets/delivery-truck.png'

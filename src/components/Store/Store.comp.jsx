@@ -15,7 +15,7 @@ class Store extends React.Component {
              items : []
         }
     }
-    componentWillMount  () {
+    componentDidMount  () {
         this.setState({items: Items})
     }
     render(){
