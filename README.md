@@ -14,7 +14,7 @@ This is the testing project with react.
 
 # Components Structure
 There are __4__ main components in this project - 
-![alt text](https://github.com/crayonnova/react-farm-fresh-test/component-ss.jpg "Components")
+![Components](component-ss.jpg "Components")
 
 ------
 ## Header Component
@@ -65,7 +65,7 @@ $(document).ready(function(){
 ## Promotion Component
 - Font family and size applied
 Used bootstrap `Card`
-![alt text](https://github.com/crayonnova/react-farm-fresh-test/promotion.jpg "Promotion component")
+![Promotion component](promotion.jpg "Promotion component")
 
 
 ## Store Component
@@ -98,7 +98,7 @@ for the product view, i created a `items` arrray with required data. loop it thr
 }
 ```
 
-![alt text](https://github.com/crayonnova/react-farm-fresh-test/store.jpg "Store component")
+![Store component](store.jpg "Store component")
 
 ## Modal Component
     Bootstrap modal is used for the project pop up display.
@@ -107,7 +107,7 @@ for the product view, i created a `items` arrray with required data. loop it thr
 - button customized
 - text read more features added
 
-![alt text](https://github.com/crayonnova/react-farm-fresh-test/modal.jpg "Modal component")
+![Modal component](modal.jpg "Modal component")
 
 
 
