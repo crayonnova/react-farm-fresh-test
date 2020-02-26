@@ -20,7 +20,7 @@ There are __4__ main components in this project -
 ## Header Component
 I only used bootstrap `Navbar` from react-bootstrap
 
-![alt text](https://github.com/crayonnova/react-farm-fresh-test/header.jpg "Header component")
+![alt text](header.jpg "Header component")
 
 For the banner cover up effect i used custom jquery code for transaction - 
 
