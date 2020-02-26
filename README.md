@@ -15,7 +15,10 @@ In this test, i try to write styling as same as the given screens by interviewer
 
 # Components Structure
 There are __4__ main components in this project - 
-![Components](/src/components/component-ss.jpg "Components")
+- __Header__
+- __Promotion__
+- __Store__
+- __Modal__
 
 ------
 ## Header Component
