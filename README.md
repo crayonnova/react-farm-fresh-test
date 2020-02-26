@@ -10,7 +10,8 @@ This is the testing project with react.
 - Sass
 
 # Technical point of view
-    In this test, i try to write styling as same as the given screens by interviewer. May be i can update with some additional styling for futher request. I am currently learning React and used in this test for showing technical proficiency. Using react, I can easily customize each componets without looking a bench of html code and styling is much more easier with SASS with BEM methdology.
+ 
+In this test, i try to write styling as same as the given screens by interviewer. May be i can update with some additional styling for futher request. I am currently learning React and used in this test for showing technical proficiency. Using react, I can easily customize each componets without looking a bench of html code and styling is much more easier with SASS with BEM methdology.
 
 # Components Structure
 There are __4__ main components in this project - 
