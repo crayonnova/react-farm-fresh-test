@@ -12,7 +12,7 @@ export class Promotion extends Component {
                <Row className='mx-0 my-3'>
                    <Col md={6}>
                     
-                       <h1>FRESH FOOD FOR A FRESHER YOU</h1>
+                       <h1>FRESH FOOD FOR A FRESHER YOU this is some edit</h1>
                        <h2>Quality Food,Quality Life</h2>
                    </Col>
                    <Col md={6}>
